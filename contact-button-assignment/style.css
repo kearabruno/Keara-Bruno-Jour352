@@ -1,0 +1,25 @@
+body{
+    background-color: #BAF2E9; 
+    text-align: center;
+}
+button{
+    background-color: #F2BAC9;
+    font-family: 'Playfair Display', serif;
+    width: 210px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+    
+}
+button:hover{
+    background-color: #BAD7F2;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
