@@ -1,0 +1,33 @@
+/*
+MY COLOR PALETTE
+Green - #B0F2B4
+Teal - #BAF2E9
+Blue - #BAD7F2
+Pink - #F2BAC9
+Yellow - #F2E2BA
+*/
+
+body {
+    background-color:#F2E2BA;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#BAD7F2;
+    border: 3px solid #BAF2E9;
+    padding: 60px 30px 10px 30px;
+    margin: auto;
+}
+#highlight{
+    color: #F2BAC9;
+    font-weight: bolder;
+}
+#highlight2{
+    color:#F2BAC9;
+    font-weight: bolder;
+}
