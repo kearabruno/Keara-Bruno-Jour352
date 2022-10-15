@@ -1,3 +1,67 @@
 #footer{
-    background color: aqua; 
+    background-color: #BAD7F2;
+    color: white;
+    padding: 20px 0px 20px 20px;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight:bold;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    color: white; 
+    font-weight:bold;
+}
+title{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+#headshot {
+    width:300px;
+    padding:0px;
+    margin:20px 0px 20px 40px;
+    border-radius: 500px;
+}
+#button {
+    background-color: #BAD7F2;
+    border:0px;
+    border-radius: 10px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
+    font-family: 'Playfair Display', serif;
+}
+
+#button a {
+    color:white;
+    text-decoration: none;
+}
+.nav a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+}
+.nav a:hover {
+    color: #BAD7F2;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight:bold;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight:bold;
+}
+ul{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight:bold;
+}
+body{
+    background-color:#F2E2BA;
 }
