@@ -1,12 +1,9 @@
-@media {
-    /*Phone styles here*/
-    /*This media query targets any screen smaller than 576px wide (see below)*/
 #footer{
-        background-color: cadetblue;
-        color: white;
-        padding: 5px 0px 5px 20px;
-        font-family: 'Playfair Display', serif;
-    }
+    background-color: cadetblue;
+    color: white;
+    padding: 20px 0px 20px 20px;
+    font-family: 'Playfair Display', serif;
+}
 h1{
     font-size: 60px;
     font-family: 'Playfair Display', serif;
@@ -19,9 +16,9 @@ h2{
     font-weight:bold;
 }
 #headshot {
-    width:100%;
+    width:300px;
     padding:0px;
-    margin:20px 0px 20px 0px;
+    margin:20px 0px 20px 40px;
     border-radius: 500px;
 }
 #button {
@@ -32,10 +29,10 @@ h2{
     text-transform:uppercase;
     margin:10px;
     font-family: 'Playfair Display', serif;
-    color:white;
 }
 
 #button a {
+    color:white;
     text-decoration: none;
 }
 #button:hover{
@@ -87,30 +84,3 @@ body{
     text-align: left;
     margin:0px 0px 2px 0px;
 }
-#edescription{
-     margin: 7px 0px 0px 0px; 
-}
-#description {
-padding:0px 0px 0px 10px;
-}
-
-}
-
-@media (min-width: 576px) {
-    /*Tablet-only styles here*/
-    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
-#headshot {
-    margin:20px 0px 20px 40px;
-    width:300px;
-}
-#edescription{
-     margin: inherit; 
-}
-}
-
-@media (min-width: 992px) {
-    /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
-
-}
-
