@@ -1,10 +1,42 @@
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
-.leadimage{
-        width=100%;
+    .leadimage{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
     }
-    
+    .container-fluid1{
+        background-color:black;
+    }
+    .headline{
+        color:white;
+        background-color: black;
+        font-family: 'Playfair Display', serif;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+    .byline{
+        font-size: 15px;
+        padding: 0px 0px 0px 0px;
+    }
+    .naomiosaka{
+        width:100%;
+    }
+    .pullquote{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+    }
+    .simonebiles{
+        width: 100%;
+    }
+    p{
+        font-family: 'Playfair Display', serif;
+    }
+    h2{
+        font-size:100px;
+        font-family: 'Playfair Display', serif;
+        
+    }
 }
 
 @media (min-width: 576px) {
