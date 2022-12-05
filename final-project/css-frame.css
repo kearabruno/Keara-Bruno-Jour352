@@ -41,13 +41,12 @@
     .caption{
         font-size: 10px;
     }
-    .footer{
+    .colfooter{
         background-color: lavender;
         color: black;
-        padding: 15px 15px 15px 15px;
-        margin: 10px 0px 10px 0px;
         font-family: 'Playfair Display', serif;
         width: 100%;
+        padding: 5px 5px 5px 5px;
     }
 }
 
