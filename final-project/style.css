@@ -15,6 +15,12 @@
         width: 100%;
         padding: 10px 10px 10px 10px;
     }
+    h1{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
     .byline{
         font-size: 15px;
         padding: 0px 0px 0px 0px;
