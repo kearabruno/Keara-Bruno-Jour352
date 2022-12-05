@@ -1,0 +1,66 @@
+@media {
+    /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+    .leadimage{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .container-fluid1{
+        background-color:black;
+    }
+    .headline{
+        color:white;
+        background-color: black;
+        font-family: 'Playfair Display', serif;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+    .byline{
+        font-size: 15px;
+        padding: 0px 0px 0px 0px;
+    }
+    .naomiosaka{
+        width:100%;
+    }
+    .pullquote{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        color: purple;
+    }
+    .simonebiles{
+        width: 100%;
+    }
+    p{
+        font-family: 'Playfair Display', serif;
+    }
+    h2{
+        font-size:100px;
+        font-family: 'Playfair Display', serif;
+        
+    }
+    .caption{
+        font-size: 10px;
+    }
+    .colfooter{
+        background-color: lavender;
+        color: black;
+        font-family: 'Playfair Display', serif;
+        width: 100%;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+}
