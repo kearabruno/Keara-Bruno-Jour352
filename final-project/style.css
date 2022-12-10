@@ -24,6 +24,11 @@
     .byline{
         font-size: 15px;
         padding: 0px 0px 0px 0px;
+        font-weight: bold;
+    }
+    .leadimagecaption{
+        font-size: 10px;
+        padding:0px 0px 0px 0px;
     }
     .naomiosaka{
         width:100%;
@@ -32,6 +37,7 @@
         font-size: 30px;
         font-family: 'Playfair Display', serif;
         color: purple;
+        text-align: center;
     }
     .simonebiles{
         width: 100%;
@@ -52,13 +58,20 @@
         color: black;
         font-family: 'Playfair Display', serif;
         width: 100%;
-        padding: 5px 5px 5px 5px;
+        text-align: inherit;
+        padding: 15px 0px 0px 0px;
+    }
+    .introductionelement{
+        font-size: 20px;
+        color:purple;
+        text-align: center;
     }
 }
 
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    
 }
 
 @media (min-width: 992px) {
